@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Welcome"
+date:   2015-09-04
+categories: devlog
+---
+Hi. This will be the devlog for my capstone design project at Harvard Extension School.

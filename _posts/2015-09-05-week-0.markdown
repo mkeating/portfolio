@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Week 0"
+date:   2015-09-05
+categories: devlog
+---
+My capstone project will be a webapp for creating collaborative branching narratives. I'll be building it in [Meteor](https://www.meteor.com/) to allow for multiple users writing in real time. I think this provides a good baseline for a design project, but I expect it to change and become more refined as I receive feedback and the app starts being used. 
+
+This summer was mostly spent on finalizing my [proposal](http://mkeat.net/files/Keating_capstone_proposal_v1.pdf) and having it approved. Once that was done, I finalized my decision on frameworks to use, decided on a hosting solution, and made a test deployment. Then I began doing tutorials and making toy apps to get familiar with the tools I'll be using.
+
+The idea for this project came out of a user interface design course, so I have already created a mockup of how the app should feel when writing; you can play with this [here](http://mkeat.net/story_proto/highlight.html). The blue words will continue the story, or any other word can become your own branch. 
+
+In September I'll be focusing on getting a functional, if rough, version of the app running and deployed; something I've felt is most lacking in my design process so far is actual user testing, so I'd like to get people using it as soon as possible.
+
+**Grading Rubric**
+
+<table style="width:100%">
+  <tr>
+    <td ></td>
+    <td style="font-size: .7em; color: white; background-color: #A9A9A9; padding: 2px; text-align: center">Excellent</td> 
+    <td style="font-size: .7em; color: white; background-color: #A9A9A9; padding: 2px; text-align: center">Competent</td>
+    <td style="font-size: .7em; color: white; background-color: #A9A9A9; padding: 2px; text-align: center">Needs Work</td>	
+  </tr>
+  <tr>
+    <td  style="font-size: .7em; color: white; background-color: #A9A9A9; padding: 5px; max-width: 400px;">Functionality: Does the app run? Are there any critical bugs? Is all the relevant data stored securely? Do all integrations (social media, email) work?</td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+  </tr>
+<tr>
+    <td  style="font-size: .7em; color: white; background-color: #A9A9A9; padding: 5px; max-width: 400px;">User Interface: Is the functionality available to the user clear and easy to use? Are all animations functional? Is it pleasing to use? Is the visual hierarchy and color scheme well thought-out and does it serve the app's purpose?</td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+  </tr>
+<tr>
+    <td  style="font-size: .7em; color: white; background-color: #A9A9A9; padding: 5px; max-width: 400px;"> Improvements and response to feedback: Has the app gone through several iterations and improvements? Have user issues and feedback been taken into account and resulted in a better user experience?</td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+  </tr>
+<tr>
+    <td  style="font-size: .7em; color: white; background-color: #A9A9A9; padding: 5px; max-width: 400px;">Core purpose: Does the app inspire creativity? Does it provide a pleasing and easy-to-use forum for writing fiction? Is it easy for users to work off of each other's writing?</td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+<td style="font-size: .7em; border: 1px solid #A9A9A9;"></td>
+  </tr>
+  </tr>
+</table>
+
+
+Milestones
+
+<ul>
+	<li>First milestone: skeleton build </li>
+		A basic deployed build of the app that allows for user registration and story creation; users will be able to create story chunks, but with minimal UI.
+		Expected completion: end of September
+
+	<li>Second milestone: refined user interface</li>
+		Integrate the planned UI animations and flow, and begin short testing phases; iterate through several design options (for example, the options for branching described in my proposal). Arrive at a polished UI, that may still be evolving and improved.
+		Expected completion: end of October
+
+	<li>Third milestone: exploration and implementation of extra features</li>
+		Begin implementing and testing planned extra features: social sharing options, link sharing, email updates, sentiment or other textual analysis.
+		Expected completion: end of November
+
+	<li>Fourth milestone: home stretch</li>
+		Identify extra features that aren't realistic and roll them back; finalize UI and possibly write unit tests. Arrive at complete app for presentation.
+		Expected completion: end of semester
+		
+
+</ul>

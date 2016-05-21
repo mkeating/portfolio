@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: mkeat
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Michael Keating's Portfolio
+#baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+#url: "http://mkeat.net" # prod
+url: "http://127.0.0.1:4000" # dev
+twitter_username: mikekeating
+github_username:  mkeating
+collections:
+- projects
+
+# Build settings
+markdown: kramdown

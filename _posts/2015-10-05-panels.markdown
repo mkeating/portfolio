@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Panels"
+date:   2015-09-22
+categories: devlog
+---
+
+
+Designing the panels object will likely be an evolving process as I decide what data is necessary to track and store. Panels will be the story nodes created by users; other metaphors I've explored are cards, like post-its in a storyboard, or just a generic descriptor like "chunks." I like panels because its the closest to what each story node will look like in the interface.
+Here is what I have so far:
+<pre><code>Panels.insert({
+              text: text,
+              createdAt: new Date(),
+              //createdBy: Meteor.user(),
+              //parentPanel:,
+            });
+</code></pre>
+
+createdBy will be important as user identities become more fleshed out; I may want to allow users to search or filter by storylines that include many panels by a certain author whom the user has decided they like and want to follow.
+parentPanel will be important for establishing storylines; as I've conceived the project so far, there will be no looping or connecting to already existing panels, so storylines can be created simply by finding the terminal panel, and crawling back through each panels parent.
+I'll be thinking about other types of data to capture. Some basic ones that have occurred to me are things like word count, but, depending on what I'll be using them for, it might be better to just calculate it on the fly in the client, rather than storing it in the collection.
+Similar customization of the User object will happen in the future, but at the moment, I'm using Meteor's default object. This is done simply by running this:
+meteor add accounts-ui accounts-password
+in terminal and adding
+<pre>
+<code>
+
+  {{"{{> loginButtons" }}}}
+</code>
+</pre>
+
+
+to the view. Meteor makes many of these standard needs very easy to implement, including the ability to log in by social profiles rather than username or email.
