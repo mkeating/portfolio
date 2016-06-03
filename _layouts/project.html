@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+
+{% assign url = page.url | replace:'/','' %}
+
+{% for project in site.projects  %}
+	{%if project.id == url%}
+		{% assign thisProject = project %}
+	{% endif %}
+
+{% endfor %}
+
+
+<div class="projectContent">
+
+
+	<h1> {{ thisProject.title }} </h1>
+
+	<a href="{{thisProject.url}}">Check it out</a> 
+	{%if thisProject.github %}
+		or view on <a href="{{thisProject.github}}">Github</a>
+	{% endif %}
+	<p>{{ thisProject.content }}</p>
+
+</div>
+
+

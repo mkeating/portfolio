@@ -147,6 +147,11 @@ $on-laptop:        800px;
       }
  }
 
+ .projectContent{
+  text-align: center;
+ }
+
+
  .navbar-nav {
     width: 100%;
     text-align: center;
@@ -154,6 +159,7 @@ $on-laptop:        800px;
       float: none;
       display: inline-block;
     }
+    
   }
 
   .avatar {
@@ -163,9 +169,9 @@ $on-laptop:        800px;
   }
 
   .social{
-  width:80%;
-  margin: 0 auto;
-  float: left;
+  width:100%;
+  text-align: center;
+  
   }
 
   .img-circle {

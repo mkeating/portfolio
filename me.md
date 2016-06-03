@@ -6,7 +6,7 @@ permalink: /me/
 
 <div class="home">
 
-  <h1 class="page-heading">About Me</h1>
+  
 
 
   <p>

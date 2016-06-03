@@ -3,17 +3,11 @@ layout: default
 ---
 
 <div class="home">
-
-  <h3>You can find the code for the projects below on my Github: {% if site.github_username %}
-       
-            {% include icon-github.html username=site.github_username %}
-        
-          {% endif %}</h3>
   
   {% assign projects = site.projects | sort: "order" %}
   <div class="project-list">
     {% for project in projects %}
-      <a href={{ project.url}} class="projectLink">
+      <a href={{ project.id}} class="projectLink">
         <div class="projectPreview backface-visibility(hidden)" style="background-image: url({{project.background | prepend: site.url}});">
         <div class="projectTitle" id="{{project.title}}TitleSpecific">{{ project.title }}</div>
         <div class="projectDescription">{{ project.description }}
