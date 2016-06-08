@@ -54,11 +54,11 @@ $on-laptop:        800px;
 
 .projectPreview {
 	margin-bottom: 10px;
-	min-height: 100px;
+	/*min-height: 175px;*/
 	height: 175px;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	overflow: hidden;
+	/*overflow: hidden;*/
 
 
 	-webkit-transition: all 1s ease;
@@ -87,6 +87,10 @@ $on-laptop:        800px;
 		text-decoration:none;
 		pointer:cursor;
 	}
+}
+
+.projectLink:hover, .projectLink:visited, .projectLink:link, .projectLink:active,{
+    text-decoration: none;
 }
 
 
@@ -127,6 +131,7 @@ $on-laptop:        800px;
 	color: white;
 	background-color: $grey-color-dark;
   font-size: 1em;
+  min-height: 88px;
 }
 
 .projectTools {

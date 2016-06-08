@@ -11,8 +11,8 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Michael Keating's Portfolio
 #baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "http://mkeat.net" # prod
-#url: "http://127.0.0.1:4000" # dev
+#url: "http://mkeat.net" # prod
+url: "http://127.0.0.1:4000" # dev
 twitter_username: mikekeating
 github_username:  mkeating
 collections:
