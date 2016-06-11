@@ -15,7 +15,7 @@ permalink: /me/
 
 
 	<br />	 
-  		I'm Michael Keating. I like books, language, games, Javascript, and the places they intersect. I got my bachelor's in English from UMASS Boston, and recently graduated from the <a href="https://www.extension.harvard.edu/academics/graduate-degrees/digital-media-design-degree">Digital Media Design</a> Master's program at Harvard Extension School. Here's what I studied in that program:
+  		I'm Michael Keating. I like books, language, games, Javascript, and bicycles. I got my bachelor's in English from UMASS Boston, and recently graduated from the <a href="https://www.extension.harvard.edu/academics/graduate-degrees/digital-media-design-degree">Digital Media Design</a> Master's program at Harvard Extension School. Here's what I studied in that program:
   		<div class="courses"><ul class="course-list">
   				<li>User Experience Engineering</li>
   				<li>Modern Content Management Systems</li>

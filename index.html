@@ -4,6 +4,10 @@ layout: default
 
 <div class="home">
   
+  <h4>(Chrome v51 broke a lot of my animations. Working on a fix but I recommend viewing this site in Firefox for now)</h4>
+
+  <h3 class="social">{% include icon-github.html username=site.github_username %}</h3>
+
   {% assign projects = site.projects | sort: "order" %}
   <div class="project-list">
     {% for project in projects %}

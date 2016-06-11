@@ -54,11 +54,10 @@ $on-laptop:        800px;
 
 .projectPreview {
 	margin-bottom: 10px;
-	/*min-height: 175px;*/
 	height: 175px;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	/*overflow: hidden;*/
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
 
 
 	-webkit-transition: all 1s ease;
@@ -67,7 +66,8 @@ $on-laptop:        800px;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
     &:hover{
-    	background-size: 120%;
+      -webkit-background-size: 120%;
+      background-size: 120%;
 
     	.projectTitle{
     		font-size: 3em;
@@ -175,8 +175,7 @@ $on-laptop:        800px;
 
   .social{
   width:100%;
-  text-align: center;
-  
+  text-align: center;  
   }
 
   .img-circle {
