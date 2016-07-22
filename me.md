@@ -32,6 +32,10 @@ permalink: /me/
 
 <div class="social">
   	<ul class="social-media-list">
+
+          <li><a href="/img/keating_res_2016.pdf">My resume</a></li>
+          <li>Email me! <a href="mailto:mike@mkeat.net">mike@mkeat.net</a> </li>
+
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
