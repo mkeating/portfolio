@@ -179,6 +179,12 @@
     font-size: 20px;
 }
 
+.post-title {
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 6em;
+}
+
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -187,6 +193,7 @@
         margin-bottom: $spacing-unit;
     }
 }
+
 
 .post-meta {
     font-size: $small-font-size;

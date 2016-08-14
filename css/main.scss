@@ -52,11 +52,12 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+
 .projectPreview {
 	margin-bottom: 10px;
 	height: 175px;
-  -webkit-background-size: 100% 100%;
-  background-size: 100% 100%;
+  -webkit-background-size: 100% 100% ;
+  background-size: 100% 100% ;
   background-repeat: no-repeat;
 
 
@@ -67,7 +68,7 @@ $on-laptop:        800px;
           transition: all 1s ease;
     &:hover{
       -webkit-background-size: 120% 120%;
-      background-size: 120% 120%;
+      background-size: 120% 120% ;
 
     	.projectTitle{
     		font-size: 3em;
@@ -131,7 +132,7 @@ $on-laptop:        800px;
 	color: white;
 	background-color: $grey-color-dark;
   font-size: 1em;
-  min-height: 88px;
+  min-height: 60%;
 }
 
 .projectTools {
@@ -166,6 +167,10 @@ $on-laptop:        800px;
     }
     
   }
+
+.page-link:hover {
+  text-decoration: none;
+}
 
   .avatar {
     max-height: 100px;
